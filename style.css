@@ -1,0 +1,36 @@
+/**{
+    background-color: darkgray;
+}*/
+h1{
+    /*in shorten css form-->border: 2px solid red;
+    border-bottom: 10px dashed red;*/
+    border-style: solid dotted dashed ridge;/*none none none solid*/
+    border-width: 5px 10px 15px 20px;
+    border-color: red green yellow blue;
+}
+p{
+    color: red;
+}
+.class1{
+    /*in shorten css form-->background: #fff url("images/caro1.jpeg") no-repeat fixed right top;*/
+    background-image: url(images/car01.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;/*top,right,left,bottom,center center*/
+    background-attachment: fixed;
+    /*height: 1000px;
+    width: 2000px;*/
+}
+.class1 p{
+    color: blue;
+}
+.class1 h1{
+    color: black;
+}
+/*.class1 #pfirst{
+    background-color: blueviolet;
+}*/
+.class2 h1{
+    border: 5px dashed red;
+    height: 50px;
+    width: 500px;
+}
